@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.hero.heroa.dreport.dao.WorkDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.hero.heroa.dreport.entity.WorkEntity" id="workMap">
+        <result property="workId" column="work_id"/>
+        <result property="workStart" column="work_start"/>
+        <result property="workEnd" column="work_end"/>
+        <result property="durationTime" column="duration_time"/>
+        <result property="workLocation" column="work_Location"/>
+        <result property="workContent" column="work_content"/>
+        <result property="workDetail" column="work_detail"/>
+        <result property="workProgress" column="work_progress"/>
+        <result property="workNote" column="work_note"/>
+    </resultMap>
+
+
+</mapper>

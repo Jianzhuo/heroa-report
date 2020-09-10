@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.hero.heroa.dreport.dao.ReportDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.hero.heroa.dreport.entity.ReportEntity" id="reportMap">
+        <result property="reportId" column="report_id"/>
+        <result property="reportTime" column="report_time"/>
+        <result property="reportUserName" column="report_user_name"/>
+        <result property="reportNote" column="report_note"/>
+        <result property="reportRate" column="report_rate"/>
+    </resultMap>
+
+
+</mapper>

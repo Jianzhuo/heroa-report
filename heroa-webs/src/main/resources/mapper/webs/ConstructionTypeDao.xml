@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.hero.heroa.webs.dao.ConstructionTypeDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.hero.heroa.webs.entity.ConstructionTypeEntity" id="constructionTypeMap">
+        <result property="typeId" column="type_id"/>
+        <result property="typeName" column="type_name"/>
+        <result property="bedroomNum" column="bedroom_num"/>
+        <result property="bathroomNum" column="bathroom_num"/>
+        <result property="area" column="area"/>
+        <result property="typeDes" column="type_des"/>
+    </resultMap>
+
+
+</mapper>

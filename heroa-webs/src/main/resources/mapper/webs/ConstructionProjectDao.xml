@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.hero.heroa.webs.dao.ConstructionProjectDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.hero.heroa.webs.entity.ConstructionProjectEntity" id="constructionProjectMap">
+        <result property="projectId" column="project_id"/>
+        <result property="projectName" column="project_name"/>
+        <result property="projectLocation" column="project_location"/>
+        <result property="projectBudget" column="project_budget"/>
+        <result property="projectArea" column="project_area"/>
+        <result property="projectType" column="project_type"/>
+        <result property="projectCompleted" column="project_completed"/>
+        <result property="projectShortdes" column="project_shortDes"/>
+        <result property="projectDes" column="project_des"/>
+        <result property="projectBanner" column="project_banner"/>
+        <result property="projectBrochure" column="project_brochure"/>
+        <result property="projectOnhome" column="project_onHome"/>
+        <result property="projectCate" column="project_cate"/>
+        <result property="projectSort" column="project_sort"/>
+    </resultMap>
+
+
+</mapper>

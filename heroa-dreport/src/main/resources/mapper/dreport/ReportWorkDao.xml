@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.hero.heroa.dreport.dao.ReportWorkDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.hero.heroa.dreport.entity.ReportWorkEntity" id="reportWorkMap">
+        <result property="id" column="id"/>
+        <result property="reportId" column="report_id"/>
+        <result property="workId" column="work_id"/>
+    </resultMap>
+
+
+</mapper>
